@@ -127,7 +127,7 @@
 }
 @media (max-width:371px){
     .Sci{
-    bottom: 28.5rem;
+   bottom:  16.5rem;
     width: 15.875rem;
     }
     .Home{
@@ -138,9 +138,13 @@
         align-items: center;
         flex-direction: column;
         text-align: center;
+        margin-top: 18rem;
     }
     .Home-content h1{
         font-size: 4rem;
+    }
+    .btn-box{
+        height: 3.5rem;
     }
 
 }
