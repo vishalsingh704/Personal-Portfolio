@@ -319,7 +319,7 @@ section{
 }
 .Home-imgHover{
     pointer-events: none;
-    background: var(--bg-color);
+/*     background: var(--bg-color); */
     opacity: .6;
 }
 
