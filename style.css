@@ -9,10 +9,10 @@
     font-family: Poppins,sans-serif;
 }
 :root{
-    --bg-color:#78D8E1;
-    --second-bg-color:#55BCC9;
+    --bg-color:#144f82;
+    --second-bg-color:#5AC4C4;
     --text-color:white;
-    --main-color:black;
+    --main-color:#0a182f;
 }
 body{
     background:var(--bg-color) ;
@@ -66,7 +66,7 @@ header.sticky{
 }
 .logo::before{
     content: '';
-    background: #78D8E1;
+    background:var(--bg-color);
     position: absolute;
     top: 0;
     right: 0;
@@ -98,7 +98,7 @@ section{
 }
 .Home-content h1::before{
     content: '';
-    background: #78D8E1;
+    background:var(--bg-color);
     position: absolute;
     top: 0;
     right: 0;
@@ -109,7 +109,7 @@ section{
 }
 .Home-content .text-animate{
     position: relative;
-   width: 21rem;
+    width: 21rem;
 }
 .Home-content .text-animate h3{
     position: relative;
@@ -137,7 +137,7 @@ section{
 }
 .Home-content h3::before{
     content: '';
-    background: #78D8E1;
+    background:var(--bg-color);
     position: absolute;
     top: 0;
     right: 0;
@@ -153,7 +153,7 @@ section{
 }
 .Home-content p::before{
     content: '';
-    background: #78D8E1;
+    background:var(--bg-color);
     position: absolute;
     top: 0;
     right: 0;
@@ -170,7 +170,7 @@ section{
     margin-left: 2.188rem;
 }
 .Navbar a:hover{
-    color: blueviolet;
+    color: rgb(180, 36, 36);
 }
 .btn-box{
     position: relative;
@@ -182,7 +182,7 @@ section{
 
 .Home-content .btn-box::before{
     content: '';
-    background: #78D8E1;
+    background:var(--bg-color);
     position: absolute;
     top: 0;
     right: 0;
@@ -239,7 +239,7 @@ section{
 }
 .Sci::before{
     content: '';
-    background: #78D8E1;
+    background:var(--bg-color);
     position: absolute;
     top: 0;
     right: 0;
@@ -296,12 +296,12 @@ section{
     transition: 3s;
 }
 .Home-imgHover:hover{
-    background: #78D8E1;
+    background:var(--bg-color);
     opacity: .8;
 }
 .Home-imgHover::after{
     content: '';
-    background: #78D8E1;
+    background:var(--bg-color);
     position: absolute;
     top: 0;
     right: 0;
@@ -309,7 +309,7 @@ section{
     height: 100%;
     animation: showRight 1s ease forwards;
     animation-delay: 3s;
-    z-index: 2;
+    /* z-index: 2; */
 }
 
 @keyframes showRight {
@@ -319,7 +319,7 @@ section{
 }
 .Home-imgHover{
     pointer-events: none;
-/*     background: var(--bg-color); */
+    /* background: var(--bg-color); */
     opacity: .6;
 }
 
