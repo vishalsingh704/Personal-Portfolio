@@ -97,8 +97,8 @@
     position: absolute;
     top: 0;
     left: -1.1rem;
-    width: 2rem;
-    height: 2rem;
+    width: 1.8rem;
+    height: 1.8rem;
     background: black;
     border-radius: 50%;
 }
@@ -116,7 +116,7 @@
     top: 0;left: 0;
     width: 0;
     height: 100%;
-    background: var(--second-bg-color);
+    background: #0977d644;
     z-index: -1;
     transition: .5s;
 }
@@ -170,7 +170,7 @@
     top: 0;left: 0;
     width: 0;
     height: 100%;
-    background: var(--bg-color);
+    background: #50ac8047;
     z-index: -1;
     transition: .5s;
 }
@@ -188,7 +188,7 @@
 .skills-content .progress .bar{
     height:1rem;
     border-radius: .6rem;
-    border: .2rem solid rgba(255, 0, 0, 0.564);
+    border: .2rem solid rgba(136, 30, 30, 0.564);
     padding: .2rem;
     margin: .8rem 0;
 }
@@ -261,7 +261,7 @@
     top: 0;left: 0;
     width: 0;
     height: 100%;
-    background: var(--second-bg-color);
+    background: #0977d644;
     border-radius: .6rem;
     z-index: -1;
     transition: .5s;
